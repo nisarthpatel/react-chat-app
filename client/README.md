@@ -48,15 +48,13 @@ Install Dependencies for Client and Server:
 
 Client:
 
-cd client-server
+`cd client`
 
-cd vite-project
-
-npm install
+`npm install`
 
 **Server**: Open a new terminal window, navigate to the server directory, and install dependencies:
 
-`cd ../../server`
+`cd ../server`
 
 `npm install`
 **Start the Server:**
@@ -67,7 +65,8 @@ Start the server from the server directory. By default, it listens on http://loc
 
 Running the Client:
 
-Start the client from the client-server/viteproject directory using Vite:
+Start the client from the client directory using Vite:
+
 `npm run dev`
 
 Once both the server and client are running, open your browser and go to the URL displayed in the client terminal (usually http://localhost:3000). In this project we have client port set to 4000.
